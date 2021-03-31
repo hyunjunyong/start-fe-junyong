@@ -1,3 +1,79 @@
+/* var result = 0;
+for(var x = 1; x < 10; x++){
+    for(var y = 1; y < 10; y++){
+        result = x*y;
+        console.log(x + "*" + y +"="+ result);
+    }
+} */
+/* 
+var arr = [1, 2, 3];
+
+var arr = new Array(1, 2, 3);
+var arr = new Array(3);
+console.log(arr.length); */
+
+/* var todos = ['운동'];
+var todo = '게임';
+todos.push(todo);
+console.log(todos);
+ */
+/* todos.forEach(function(todo){
+  console.log(todo);
+});
+ */
+/* var todos = ['운동', '게임'];
+var updateTodo = '게임';
+var updateIndex = todos.findIndex(function(todo){
+  return todo === updateTodo;
+});
+todos[updateIndex] = '공부';
+console.log(todos); */
+/* 
+var words = ['a' , 'b' , 'c'];
+var newWords = words.map(function(word){
+  return word + 'ok';
+});
+console.log(newWords);
+
+console.log(words.reverse()); */
+/* 
+var words = ['a' , 'b' , 'c'];
+var newWords = words.map(function(word){
+  return word + 'ok';
+});
+console.log(newWords);
+
+console.log(words.reverse()); */
+
+/* var todos = ['운동', '공부' , '목욕'];
+var deleteTodo = '공부';
+var deleteIndexo = todos.findIndex(function(todo){
+  return todo === deleteTodo;
+});
+todos.splice(deleteIndex,1);
+console.log(todos);
+
+ */
+
+/* var isMan = true;
+if(isMan){
+  console.log('1');
+}
+else if(!isMan && isHero){
+
+}
+else{
+  console.log('2');
+} */
+
+
+/* for ( var count = 0; count <5; count ++){
+
+} */
+
+
+
+
 //alert('alert');
 
 //var hi = prompt("당신은 누구십니까?");
@@ -154,7 +230,7 @@ function call(){
 //}
 /* call();
 alert("숫자의 총합은" + "=" + sum); */
-
+/* 
 var num=0;
 var sum=0;
 while((num = prompt("숫자를 입력하세요")) !== '') {
@@ -162,3 +238,18 @@ while((num = prompt("숫자를 입력하세요")) !== '') {
 }
 alert(`합은 ${sum}`);
   
+ */
+
+/* var result = 0;
+for(var x = 1; x < 10; x++){
+    for(var y = 1; y < 10; y++){
+        result = x*y;
+        console.log(x + "*" + y +"="+ result);
+    }
+} */
+/* 
+var arr = [1, 2, 3];
+
+var arr = new Array(1, 2, 3);
+var arr = new Array(3);
+console.log(arr.length); */
