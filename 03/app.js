@@ -1,79 +1,73 @@
-var link = document.querySelector('#link');
-link.addEventListener('clcik',function(){
-console.log(1);
-//event.stopPropagation();
+/* window.outerWidth
 
-});
+window.name
 
-/* var list = document.querySelector('#list');
-console.log(list.children);
+window.open('http://wwwdaum.net');
 
-var app = document.getElementById('list');
+window.opener
+window.close();
 
-app.addEventListener('click',function(event){
-    if(event.target.nodeName == 'LI'){
-        console.log(2);
-        event.stopPropagation();
-    }
+location.href= 'http://www.daum.net';
+
+location.reload(); */
+
+/* const element = document.getElementById('wrap');
+
+const element = document.querySelector('.item');
+
+const elements =  document.querySelectorAll('div'); */
+
+/* const div = document.createElement('div');
+div.style.border = "1px solid red";
+div.innerHTML = "hello!!";
+
+document.body.appendChild(div); */
+
+/* const div = document.createElement('div');
+div.style.border = "1px solid red";
+div.innerHTML = "hello!!";
+
+document.body.appendChild(div); */
+
+/* document.querySelector('#debug').innerHTML = text; */
+
+/* const el = document.getElementById('div1');
+el.remove(); */
+
+/* const list = document.getElementById('list'); 
+list.removeChild(list.children[0]); */
+
+/* //프로퍼티로 주기
+window.load=function(){
+    alert("load");
+};
+
+//DOM 레벨2
+window.addEventListener('load', function(){
+    alert("load");
 }); */
-/* document.body.addEventListener('click',function(){
-    console.log('body');
-});  */
-// for(var i=0; i<list.childrenlength; i++){
-//     console.log(list.children[i]);
-//     list.children[i].addEventListener('click',function(){
-//         console.log(1);
-//     });
-// }
+
+
 /* var clickCount = 0;
 function popup(event){
     console.log(++clickCount);
-    console.log(argument,this,event,event.type,event.currentTarget);
+    console.log(arguments, this ,event ,event.type,event.currentTarget);
 }
-*/
+document.body.addEventListener('click', popup);
 
-/* console.log(window.outerWidth); */
+document.body.addEventListener('click', function(){
+    console.log("click");
+}); */
 
-/*console.log(window.name);
+/* var app = document.getElementById("list");
 
-window.open('http://www.daum.net');
+app.addEventListener("click", function(event) {
+    if(event.target.nodeName == "LI"){
+        //한개의 event리스너로 모든 li에 click이벤트 등록과 비슷
+    }
+}); */
 
-window.opener
+/* event.stopPropagation(); // 이벤트 전파 중지
 
-window.close(); */
+event.preventDefault(); // 기본 행동 중지 */
 
-//window.location
-//window.alert(1)
-/* const element = document.querySelector('.box');
-console.log(box);
-var debug = document.getElementById('debug'); */
-
-/* var div = document.createElement('div');
-console.log(div);
-div.style.border = '1px solid #000';
-div.innerHTML = 'Hello!';
-
-document.body.appendChile(div); */
-
-/* const span = document.createElement('span');
-const textNode = document.createTextNode('hello!'); 
-span.appendChild(textNode);
-document.querySelector('#debug').appendChild(span); */
-
-/* var debug = document.getElementById('debug');
-debug.remove(); */
-
-/* const list = document.getElementById('list');
-list.removeChild(list.children(0)); */
-
-// js코드)  dom을 생성하는 메소드는?
-// .createElement()
- 
-// 이 문제에 플래그를 지정
-// js코드)  dom을 제거하는 메소드는?
-// .remove()
-// .removeChild() 
-// 이 문제에 플래그를 지정
-// js코드)  dom에 이벤트를 추가하는 메소드는?
-// addEventListener()
-// removeEventListener()
