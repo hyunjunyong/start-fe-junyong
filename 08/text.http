@@ -1,0 +1,3 @@
+Get https://daum.net
+
+터미널 키고 curl :"사이트명"(-v 붙이면 상세한 설명 추가)
