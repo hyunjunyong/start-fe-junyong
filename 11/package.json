@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --open",
-    "build": "webpack"
+    "build": "webpack && cp dist/* ../docs"
   },
   "devDependencies": {
     "eslint": "^7.27.0",
