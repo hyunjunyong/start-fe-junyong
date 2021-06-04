@@ -17,9 +17,11 @@
   },
   "homepage": "https://github.com/hyunjunyong/start-fe-junyong#readme",
   "devDependencies": {
+    "css-loader": "^5.2.6",
     "eslint": "^7.27.0",
     "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-import": "^2.23.3",
-    "eslint-config-prettier" : "^6.11.0"
+    "style-loader": "^2.0.0"
   }
 }
