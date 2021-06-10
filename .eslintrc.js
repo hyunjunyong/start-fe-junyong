@@ -3,7 +3,12 @@ module.exports = {
     browser: true,
     es2021: true,
   },
-  extends: 'eslint:recommended',
+  extends: ['eslint:recommended', 'airbnb-base', 'prettier'],
+  globals: {
+    Atomics: 'readonly',
+    SharedArrayBuffer: 'Readonly',
+    React: true,
+  },
   parserOptions: {
     ecmaVersion: 12,
     sourceType: 'module',
