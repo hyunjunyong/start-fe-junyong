@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>나의 프론트엔드 개발기</title>
+    <script type="text/javascript" src="/src/jquery-3.6.0.min.js"></script>
+    <link rel = "stylesheet" href = "app.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">나의 프론트엔드 개발기 (현준용)</a>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="titlewrap">
+        <h3>학습</h3>
+        <div class="btnwrap">
+          <!-- 학습리스트 필터 -->
+          <div class="btn-group FEstudy" role="group">
+            <!-- 선택된 버튼에만 active 속성 추가 -->
+            <button type="button" class="btn btn-outline-primary FEall active">
+              모두
+            </button>
+            <button type="button" class="btn btn-outline-primary FEhelp">
+              도움링크
+            </button>
+            <button type="button" class="btn btn-outline-primary FEgit">git</button>
+            <button type="button" class="btn btn-outline-primary FErecent">
+              최신순
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- loading중에 표시합니다. -->
+      <div class="spinner-border" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+      <table class="table study-table">
+        <thead>
+          <tr>
+            <th scope="col" class = "study-week">주차</th>
+            <!-- title -->
+            <th scope="col" class = "study-title">제목</th>
+            <!-- docUrl -->
+            <th scope="col" class = "study-content">학습내용</th>
+            <!-- link -->
+            <th scope="col" class = "study-help">도움링크</th>
+            <!-- date -->
+            <th scope="col" class = "study-date">날짜</th>
+            <!-- gitUrl -->
+            <th scope="col" width="100" class = "study-git">실습</th>
+          </tr>
+        </thead>
+        <tbody class = "study">
+          <!-- 학습 클래스 추가 -->
+          
+        </tbody>
+      </table>
+      <div class="titlewrap">
+        <h3>퀴즈</h3>
+        <!-- 퀴즈리스트 필터 -->
+        <div class="btnwrap">
+          <div class="btn-group FEQuiz" role="group">
+            <button type="button" class="btn btn-outline-primary QUIZall active">
+              모두
+            </button>
+            <button type="button" class="btn btn-outline-primary QUIZgit">git</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- loading중에 표시합니다. -->
+      <div class="spinner-border" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+      <table class="table quiz-table">
+        <thead>
+          <tr>
+            <!-- title -->
+            <th scope="col">제목</th>
+            <!-- docUrl -->
+            <th scope="col">문제</th>
+            <!-- previewUrl -->
+            <th scope="col">미리보기</th>
+            <!-- gitUrl -->
+            <th scope="col" width="100">실습</th>
+          </tr>
+        </thead>
+        <tbody class = 'quiz'>
+          
+        </tbody>
+      </table>
+    </div>
+  </body>
+  
+  <script src="app.js"></script>
+</html>
