@@ -62,13 +62,13 @@
   {
     "title": "중간고사",
     "docUrl": "https://github.com/advanced-webapps-class/classroom/tree/gh-pages/2021/test1",
-    "previewUrl": "https://github.com/hyunjunyong/1boon-tab/blob/main/index.html",
+    "previewUrl": "https://hyunjunyong.github.io/start-fe-junyong/start-fe-2021/src/index.html",
     "gitUrl": "https://github.com/hyunjunyong/1boon-tab"
   },
   {
     "title": "기말고사",
     "docUrl": "https://github.com/advanced-webapps-class/classroom/tree/gh-pages/2021/test2",
-    "previewUrl": "https://github.com/hyunjunyong/start-fe-2021/blob/main/src/index.html",
+    "previewUrl": "https://hyunjunyong.github.io/start-fe-junyong/1boon-tab/index.html",
     "gitUrl": "https://github.com/hyunjunyong/start-fe-2021"
   }
 ]
