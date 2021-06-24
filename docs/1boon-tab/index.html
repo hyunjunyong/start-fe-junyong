@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <script type="text/javascript" src="node_modules/jquery/dist/jquery.js"></script>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>1boon</title>
+    <link
+      rel="stylesheet"
+      href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <style>
+      .list {
+        margin: 10px;
+        padding: 10px;
+      }
+      #tabcontent{
+        display : none;
+      }
+    </style>
+  
+  <body>
+    <div class="container">
+      <h1>1boon 콘텐츠</h1>
+
+      <div>
+        <ul class="nav nav-tabs">
+          <!-- 선택된탭:선택된 탭에 .active    -->
+          <li class="active" data-tab="tab1"><a href="#">최근</a></li>
+          <li data-tab="tab2"><a href="#">많이본</a></li>
+          <li data-tab="tab3"><a href="#">실시간인기</a></li>
+        </ul>
+      </div>
+
+      <div id="list">
+        여기서 각 리스트 뿌려주기 <br /><br />
+        <div id="tab1" class="tabcontent active"></div>
+        <div id="tab2" class="tabcontent"></div>
+        <div id="tab3" class="tabcontent"></div>
+        <!-- 제목, 링크, 이미지, CP 를 표시해주세요  -->
+
+        <!-- 로딩마크업: 로딩중일때만 표시 -->
+        <div class="text-center">
+          <span class="glyphicon glyphicon-refresh"></span> 로딩중
+        </div>
+      </div>
+
+      <div class="text-center">
+        <button type="button" class="btn btn-default">더보기</button>
+      </div>
+    </div>
+  </body>
+  <script type="text/javascript" src="popular.json"></script>
+  <script type="text/javascript" src="recent.json"></script>
+  <script type="text/javascript" src="view.json"></script>
+  <script type="text/javascript" src="tapmenu.js"></script>
+  
+</head>
+</html>
